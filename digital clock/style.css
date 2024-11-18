@@ -1,0 +1,84 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  body.light {
+    /* Background image */
+    background-image: url('abstract-luxury-gradient-blue-background-smooth-dark-blue-with-black-vignette-studio-banner_1258-54371.avif');
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center; 
+  }
+  
+  body.light .container{
+    border: 2px solid white;
+    background: #4444441a;
+    box-shadow: 4px 4px 8px rgba(2555, 2555, 2555, 0.664);
+  }
+  body.light .container button{
+    color: black;
+    border: 1px solid black;
+  }
+  
+  body.dark {
+    background-color: #333; 
+    color: #f9f9f9;
+  }
+   
+  body.dark {
+    /* background-color: #333; */
+    background-image: url(dark-theme-background-q62o6998n8bqxzrf.jpg);
+    color: #f9f9f9;
+  }
+  
+  .container {
+    text-align: center;
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    width: 90%;
+    transition: background-color 0.3s, box-shadow 0.3s;
+  }
+  
+  body.dark .container {
+    border: 2px solid white;
+    background: #4444441a;
+    box-shadow: 4px 4px 8px rgba(2555, 2555, 2555, 0.664);
+  }
+  
+  .clock {
+    margin-bottom: 20px;
+  }
+  
+  #time {
+    font-size: 3rem;
+    font-weight: bold;
+  }
+  
+  #date {
+    font-size: 1.5rem;
+    margin-top: 10px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    background: #0000002a;
+    font-weight: bold;
+    border: 1px solid white;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+  }
